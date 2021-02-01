@@ -54,6 +54,32 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "Beauty and Beyond",
+        text: "Your one stop shop for beauty and beyond",
+        thumbnailUrl:'https://01.avoncdn.com/shop/representative/17376129.jpg?timestamp=%2FDate(1583592257337)%2F',
+        imageUrl: 'https://01.avoncdn.com/shop/media/4485136/sweeps-signup.jpg',
+        likes: 125451,
+        timestamp: "January 31st 2021, 10:28:45 pm",
+        comments: [
+            {
+                id:41,
+                username: "beautyfan",
+                text:"I love your products!!!"
+            },
+            {
+                id:42,
+                username: "Just Jenn",
+                text: "When is your next VIP party?"
+            },
+            {
+                id:43,
+                username: "Your Wife",
+                text:"More CBD products,please"
+            }
+        ]
+    },
 ];
 
 export default dummyData;
